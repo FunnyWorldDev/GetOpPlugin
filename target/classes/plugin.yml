@@ -1,0 +1,9 @@
+name: GetOpPlugin
+version: '1.0-SNAPSHOT'
+main: org.oftx.getopplugin.GetOpPlugin
+api-version: '1.20'
+description: A plugin that allows specified players to get op permissions.
+commands:
+  getop:
+    description: Get OP permissions if your UUID is in the config.
+    usage: /getop
